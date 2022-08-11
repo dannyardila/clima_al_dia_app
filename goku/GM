@@ -1,0 +1,8 @@
+import pygame 
+import random
+
+pygame.init()
+pygame.mixer.init()
+
+fondo = pygame.image.load('fondo1.png') 
+laser_sonido = pygame.mixer.sound('')
